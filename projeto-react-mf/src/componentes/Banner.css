@@ -1,0 +1,8 @@
+/*COMPONENTE QUE FICARÁ FORA DO CONTAINER*/
+
+.banner {
+  background-position: center;
+  background-size: cover;
+  height: 364px;
+  width: 100%;
+}

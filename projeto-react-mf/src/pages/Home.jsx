@@ -1,0 +1,19 @@
+import Header from "../componentes/Header";
+import Footer from "../componentes/Footer";
+import Button from "../componentes/Button";
+
+function Home() {
+  return (
+    <>
+      <Header />
+      <h1>Home</h1>
+      <p>Subtitle</p>
+      <Button buttonStyle="primary" arrow>
+        Olá
+      </Button>
+      <Footer />
+    </>
+  );
+}
+
+export default Home;
